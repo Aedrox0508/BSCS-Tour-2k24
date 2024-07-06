@@ -1,0 +1,617 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@font-face {
+  font-family: "Geist_sans";
+  src: url("./assets/font/Geist-Regular.ttf") format("truetype");
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav{
+  background-color: rgb(36, 36, 36);
+}
+nav ul{
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav li{
+  height: 50px;
+}
+nav a{
+  height: 100%;
+  padding: 0 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+nav a:hover{
+  color: rgb(191, 191, 191);
+  transition: all ease-in-out 200ms;
+}
+nav li:first-child{
+  margin-right: auto;
+}
+
+.search-bar{
+  background-color: rgb(36, 36, 36);
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  color: white;
+}
+.search-bar input{
+  padding: 5px;
+}
+.search-bar input:focus{
+  outline: none;
+  border: nones;
+}
+.search-bar i{
+  padding: 5px;
+  border: none;
+}
+
+.sidebar{
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  background-color: rgb(36, 36, 36);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  backdrop-filter: blur(10px);
+  transition: all ease-in-out 300ms;
+}
+.sidebar li{
+  width: 100%;
+}
+.sidebar a{
+  width: 100%;
+}
+
+
+
+/* index css */
+.b-dark{
+  background-color: rgb(36, 36,36);
+}
+.border-white{
+  border: 1px solid white;
+}
+.border-black{
+  border: 1px solid rgb(0, 0, 0);
+}
+.font--poppins{
+  font-family: "Poppins",sans-serif;
+}
+
+.font--josefin{
+  font-family: "Josefin Sans",sans-serif;
+}
+.font--geist{
+  font-family: "Geist_sans", sans-serif;
+}
+.outline-none{
+  outline: none;
+}
+.ft-sm{
+  font-size: 12px;
+}
+
+.image-h{
+  height: 250px;
+  width: 350px;
+  border-radius: 10px;
+}
+header{
+  width: 100%;
+  height: 80vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/corporate-buildings.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: "Geist_sans",sans-serif;
+}
+
+
+
+.heading--logo{
+  font-weight: 900;
+  color: #FDFFE2;
+  font-size: 12px;
+}
+
+.hero-banner{
+
+  font-family: "Poppins",sans-serif;
+  color: white  ;
+  height: 400px;
+  padding: 120px 0 0 130px;
+
+}
+
+.hero-banner > h5{
+  font-family: "Geist_sans",sans-serif;
+}
+
+.explore-btn{
+  width: 200px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 30px;
+}
+
+.main--content{
+  width: 100%;
+  height: 100%;
+}
+
+.image-holders{
+  /* border: 1px solid black; */
+  height: 100%;
+}
+
+.row-con > div{
+  padding: 20px ;
+}
+
+.post-profile img{
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+
+}
+
+.post-profile{
+  width: 100%;
+}
+
+.post-profile p{
+  width: 80px;
+  line-height:20px;
+}
+
+.read-post{
+  border: 1px solid black;
+  width: 100px;
+  background-color: rgb(36, 36,36);
+  color: white;
+  border-radius: 30px;
+  height: 40px;
+}
+.day-bn{
+  background-color: rgb(36, 36,36);
+  color: white;
+  height: 40px;
+  border-radius: 30px;
+  width: 130px;
+}
+
+.row-con > div:hover{
+  box-shadow: 1px 1px 5px 1px rgba(120, 120, 120, 0.8);
+  transition: all ease-in-out 300ms;
+}
+
+.profile-card{
+  height: 120px;
+}
+
+.post-profile-card > img{
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+}
+
+.name-content .btn{
+  border-radius: 30px;
+  border: 1px solid rgb(36, 36,36);
+}
+
+.name-content .btn:hover{
+  color: white;
+  background-color: rgb(36, 36,36);
+  transition: all ease-in-out 300ms;
+}
+
+.footer-sect{
+  background-color: rgb(36, 36,36);
+  height: 300px;
+}
+
+.footer-title p{
+  margin-left: 100px;
+}
+
+/* index css */
+
+
+/* speakers page css */
+
+.speaker-main{
+  padding: 40px;
+}
+
+.speaker-hero h1{
+  margin-top: 30px;
+}
+
+.welcome-btn{
+  width: 120px;
+  text-align: center;
+}
+
+.view-all-speakers{
+  width: 150px;
+  border-radius: 50px;
+  margin-top: 160px;
+}
+
+.speaker-card{
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}
+
+.speaker-profile-card{
+  background-color: white;
+  height: 650px;
+  width: 400px;
+  border-radius: 20px;
+}
+
+.speakers-holder > div:hover {
+  box-shadow: .5px .5px 10px .5px rgba(193, 193, 193, 0.8);
+  transition: all ease-in-out 300ms;
+}
+/* speakers page css */
+
+/* venue css */
+
+.djm{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/djm.jpg");
+  background-size: cover;
+  height: 300px;
+}
+.pag-asa{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/pag-asa-station.jpg");
+  background-size: cover;
+  height: 300px;
+}
+.FAA{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url("assets/FAA-Station.jpg");
+  background-size: cover;
+  height: 300px;
+}
+.vtms{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/port.jpg");
+  background-size: cover;
+  height: 300px;
+}
+.packet{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/iot-hub.jpg");
+  background-size: cover;
+  height: 300px;
+}
+.QBO{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/QBO-hub.jpg");
+  background-size: cover;
+  height: 300px;
+}
+.museum{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/museum-1.jpg");
+  background-size: cover;
+  height: 300px;
+}
+.lrt{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/lrt-depot.jpg");
+  background-size: cover;
+  height: 300px;
+}
+.hytec{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/hytec-logo.png");
+  background-size: cover;
+  height: 300px;
+}
+.labs-98{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/98labs_inc_logo.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.view-map{
+  width: 100px;
+}
+
+/* venue css */
+
+/* schedule css */
+.sched-date p{
+  width:170px;
+  height: 50px;
+}
+
+/* schedule css */
+
+
+/* all post css */
+
+.image-banner{
+  background-image: url("./assets/QBO.JPG");
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  background-position: center;
+}
+
+.articleImage-1{
+  background-image: url("./assets/SBECC-2.JPG");
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  background-position: center;
+}
+.articleImage-2{
+  background-image: url("./assets/PAG-ASA-1.jpg");
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  background-position: center;
+}
+.articleImage-3{
+  background-image: url("./assets/FAA-1.JPG");
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  background-position: center;
+}
+.articleImage-4{
+  background-image: url("./assets/VTMS-1.jpg");
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  background-position: center;
+}
+.articleImage-5{
+  background-image: url("./assets/QBO.JPG");
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  background-position: center;
+}
+.articleImage-6{
+  background-image: url("./assets/Packetworkx.JPG");
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  background-position: center;
+}
+.articleImage-7{
+  background-image: url("./assets/LRTII.JPG");
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  background-position: center;
+}
+.articleImage-8{
+  background-image: url("./assets/museum-1.jpg");
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  background-position: center;
+}
+.articleImage-9{
+  background-image: url("./assets/hytec.jpg");
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  background-position: center;
+}
+.articleImage-10{
+  background-image: url("./assets/98-labs.jpg");
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  background-position: center;
+}
+.articleImage-11{
+  background-image: url("./assets/baguio.jpg");
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  background-position: center;
+}
+.titleBlobs{
+  margin-top: 50px;
+}
+
+/* all post css */
+
+
+/* responsiveness */
+
+
+@media only screen and (max-width: 320px) {
+  .image-h{
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .sm-h{
+    height: 200px;
+  }
+  .psm-none{
+    padding: 10px;
+  }
+  .scft-sm{
+    font-size: 16px;
+  }
+  .view-all-speakers{
+    margin-top: 40px;
+    width: 100px;
+  }
+  .view-all-speakers a{
+    font-size: 12px;
+  }
+  .marginReset{
+    margin: 0;
+  }
+  
+  .search-bar{
+    justify-content: start;
+    margin-left: 30px;
+  }
+  .search-bar input{
+    margin-right: 10px;
+  }
+  nav ul{
+    padding-left: 0;
+  }
+  .hideOnMobile{
+    display: none;
+  }
+  .sidebar{
+    width: 100%;
+    transition: all ease-in-out 300ms;
+  }
+  .title-content{
+    font-size: 14px;
+  }
+  .title-content{
+    width: 300px;
+  }
+  .footer-title{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .social-links{
+    margin-top: 20px;
+  }
+
+  .hero-banner{
+    margin: 0;
+    padding: 30px 10px 0 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: centers;
+  }
+
+  .explore-btn{
+    align-self: center;
+  }
+  .speaker-profile-card{
+    width: 300px;
+  }
+  
+  .king-card, .brian-card{
+    height: 100%;
+  }
+  .speaker-main{
+    padding: 0; 
+    display: flex;
+  }
+  .speakers-holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .mt-20{
+    margin-top:20px;
+  }
+  .mt-40{
+    margin-top:40px;
+  }
+  .mb-20{
+    margin-bottom: 20px;
+  }
+  .text-small{
+    font-size: 14px;
+  }
+  .center-text{
+    text-align: center;
+  }
+  .jal-center{
+    align-items: center;
+    justify-content: center;
+  }
+  .sched-card{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    
+  } 
+  .container-sched{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex-wrap: wrap ;
+  }
+  .sched-holder{
+    width: 100%;
+  }
+
+  .wd-100{
+    width: 100%;
+  }
+  .sched-date{
+    display: flex;
+    justify-content: center;
+  }
+  .sched-time{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .sched-itinerary{
+    width: 100%;
+    text-align: center;
+  }
+  .footer-sect{
+    height: 100%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  nav ul{
+    padding-left: 0;
+  }
+  .hideOnMobile{
+    display: none;
+  }
+  .mb-20{
+    margin-bottom: 20px;
+  }
+  .mb-40{
+    margin-bottom: 40px;
+  }
+  .center-text{
+    text-align: center;
+  }
+  .speakers-holder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (min-width: 1025px) {
+  .menuHidden{
+    display: none;
+  }
+}

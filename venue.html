@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Computer Science Educational Tour 2024</title>
+  <!--  bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!--  bootstrap css -->
+
+  <!-- font awesome css cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <!-- font awesome css cdn -->
+
+  <link rel="shortcut icon" href="./assets/cpu.png" type="image/x-icon">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <!--  header section -->
+  <header>
+    <nav>
+      <ul class="sidebar menuHidden">
+        <li class="hide-sidebar"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+        <li><a class="ft-sm font--geist" href="./index.html">Home</a></li>
+        <li><a class="ft-sm font--geist" href="./speakers.html">Speakers</a></li>
+        <li><a class="ft-sm font--geist" href="./venue.html">Venue</a></li>
+        <li><a class="ft-sm font--geist" href="./schedule.html">Schedule</a></li>
+        <li class="search-bar"><input class="ft-sm text-secondary rounded-1 border-0" placeholder="Search" type="text"><i class="fa-solid fa-magnifying-glass"></i></li>
+      </ul>
+  
+      <ul class="">
+        <li class="tour-logo" ><a class="text-decoration-none text-white d-flex justify-content-center align-items-center" href="./index.html"><img src="./assets/cpu.png" height="30px" width="30px" alt="" />
+          <p class="ms-3 mt-3 heading--logo">
+            BSCS | <span class="heading--logo">TOUR</span>
+          </p>
+        </a></li>
+        <li class="hideOnMobile"><a class="ft-sm font--geist" href="./index.html">Home</a></li>
+        <li class="hideOnMobile"><a class="ft-sm font--geist" href="./speakers.html">Speakers</a></li>
+        <li class="hideOnMobile"><a class="ft-sm font--geist" href="./venue.html">Venue</a></li>
+        <li class="hideOnMobile"><a class="ft-sm font--geist" href="./schedule.html">Schedule</a></li>
+        <li class="search-bar hideOnMobile"><input placeholder="Search" class="ft-sm text-secondary rounded-1 border-0 outline-none" type="text"><i class="fa-solid fa-magnifying-glass ft-sm ms-2"></i></li>
+        <li class="show-sidebar menuHidden"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+      </ul>
+    </nav>
+
+    <section class="container-fluid speaker-hero d-flex flex-column justify-content-center align-items-center">
+      <div class="welcome-btn text-white rounded-5 p-2 font--poppins border-white mt-5">Welcome!</div>
+      <h1 class="font--poppins fw-bold text-center text-white">Let's take a look at our locations.</h1>
+      <p class="text-white lh-1 center-text text-small mt-20 center-text">Join us as we uncover these remarkable locations during our industry visit. Come along
+        as I guide you through these places. </p>
+      <div class="view-all-speakers text-white fs-5 font--poppins d-flex justify-content-center border-white p-2">
+        <a class="text-decoration-none text-white" href="#venues">View all</a>
+      </div>
+    </section>
+  </header>
+  <!--  header section -->
+
+  <main class="venue-main" id="venues" >
+    <div class="container p-5">
+      <div class="row">
+
+        <!-- venue 1 -->
+        <div class="col-lg-4 col-sm-12 d-flex flex-column mx-auto ">
+          <div class="location-title djm text-white p-3 d-flex flex-column justify-content-between rounded-2 ">
+            <p class="mt-3"> <span class="font--poppins fs-3 fw-bold">DJM Dormitory</span><br><span
+                class="font--geist ft-sm lh-1">24 Seminary Road, Brgy. Bahay Toro, <br> Quezon City, Metro Manila</span>
+            </p>
+
+
+            <div
+              class="view-map border-white p-2 d-flex justify-content-center align-items-center text-white align-content-end">
+              <a class="text-decoration-none text-white font--geist ft-sm" target="_blank"
+                href="https://www.google.com/maps?ll=14.659905,121.01733&z=19&t=m&hl=en&gl=PH&mapclient=embed&cid=3091969683464077085">View
+                map <i class="fa-regular fa-map ms-2"></i></a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-7 col-sm-12 mt-20  rounded-2">
+          <iframe id="djmDorm" class="rounded-2"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d482.491267464398!2d121.01689294669156!3d14.659905953368158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b6ee896f05f7%3A0x2ae8e20b8f273f1d!2sDjm%20Travel%20%26%20Tours%20Service!5e0!3m2!1sen!2sph!4v1719914626626!5m2!1sen!2sph"
+            width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <!-- venue 1 -->
+
+        <!-- venue 2 -->
+        <div class="col-lg-7 col-sm-12 d-flex flex-column mx-auto mt-5">
+          <iframe class="rounded-2"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d987427.0052825608!2d119.62119193758114!3d14.817581847840268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x339673e1a664d695%3A0xcc3c83bf3a256460!2sSubic%20Bay%20International%20Airport%20PAGASA%20-%20Weather%20Office%20-%20SBMA!5e0!3m2!1sen!2sph!4v1719916270122!5m2!1sen!2sph"
+            width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="col-lg-4 col-sm-12 rounded-2 mt-5">
+          <div class="location-title pag-asa text-white p-3 d-flex flex-column justify-content-between rounded-2">
+            <p class="mt-3"> <span class="font--poppins fs-3 fw-bold">PAG-ASA Weather Station</span><br><span
+                class="font--geist ft-sm lh-1">Building 8050 Old Terminal, Argonaut Highway, Cubi Point, Subic Bay
+                Freeport Zone 2222, Morong, Bataan</span></p>
+            <div
+              class="view-map border-white p-2 d-flex justify-content-center align-items-center text-white align-content-end">
+              <a class="text-decoration-none text-white font--geist ft-sm" target="_blank"
+                href="https://www.google.com/maps?ll=14.791884,120.271048&z=8&t=m&hl=en&gl=PH&mapclient=embed&cid=14716782539677459552">View
+                map <i class="fa-regular fa-map ms-2"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- venue 2 -->
+
+        <hr>
+        <!-- venue 3 -->
+        <div class="col-lg-4 col-sm-12 d-flex flex-column mx-auto mt-5">
+          <div class="location-title FAA text-white p-3 d-flex flex-column justify-content-between rounded-2">
+            <p class="mt-3"> <span class="font--poppins fs-3 fw-bold">First Aviation Academy</span><br><span
+                class="font--geist ft-sm lh-1">Building 8050 Old Terminal, Argonaut Highway, Cubi Point, Subic Bay
+                Freeport Zone 2222, Morong, Bataan</p>
+
+            <div
+              class="view-map border-white p-2 d-flex justify-content-center align-items-center text-white align-content-end">
+              <a class="text-decoration-none text-white font--geist ft-sm" target="_blank"
+                href="https://www.google.com/maps/search/first+aviation+academy/@14.7915634,119.6606827,10z?hl=en&entry=ttu">View
+                map <i class="fa-regular fa-map ms-2"></i></a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-7 col-sm-12 rounded-2 mt-5">
+          <iframe class="rounded-2"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d987427.0052825608!2d119.62119193758114!3d14.817581847840268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x339673e1a664d695%3A0xcc3c83bf3a256460!2sSubic%20Bay%20International%20Airport%20PAGASA%20-%20Weather%20Office%20-%20SBMA!5e0!3m2!1sen!2sph!4v1719916270122!5m2!1sen!2sph"
+            width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <!-- venue 3 -->
+
+        <!-- venue 4 -->
+        <div class="col-lg-7 col-sm-12 d-flex flex-column mx-auto mt-5">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3857.163362051811!2d120.281240212662!3d14.81608685295706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396716d2ec45459%3A0x750944287c906800!2sPort%20Of%20Subic%20Bay!5e0!3m2!1sen!2sph!4v1719925971237!5m2!1sen!2sph"
+            width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="col-lg-4 col-sm-12 rounded-2 mt-5">
+          <div class="location-title vtms text-white p-3 d-flex flex-column justify-content-between rounded-2">
+            <p class="mt-3"> <span class="font--poppins fs-3 fw-bold">Port of Subic (VTMS Control
+                Center)</span><br><span class="font--geist ft-sm lh-1">Subic Bay Freeport Zone, Zambales</span></p>
+            <div
+              class="view-map border-white p-2 d-flex justify-content-center align-items-center text-white align-content-end">
+              <a class="text-decoration-none text-white font--geist ft-sm" target="_blank"
+                href="https://www.google.com/maps/place/Port+Of+Subic+Bay/@14.8158031,120.2833688,20.64z/data=!4m14!1m7!3m6!1s0x3396716d2ec45459:0x750944287c906800!2sPort+Of+Subic+Bay!8m2!3d14.8156046!4d120.2834182!16s%2Fm%2F03gw_b1!3m5!1s0x3396716d2ec45459:0x750944287c906800!8m2!3d14.8156046!4d120.2834182!16s%2Fm%2F03gw_b1?hl=en&entry=ttu">View
+                map <i class="fa-regular fa-map ms-2"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- venue 4 -->
+
+        <!-- venue 5 -->
+        <div class="col-lg-4 col-sm-12 d-flex flex-column mx-auto mt-5">
+          <div class="location-title packet text-white p-3 d-flex flex-column justify-content-between rounded-2">
+            <p class="mt-3"> <span class="font--poppins fs-3 fw-bold">Packetworx Inc - IoT Technology
+                Hub</span><br><span class="font--geist ft-sm lh-1">G/F, iSquare Bldg, 15 Meralco Ave, Ortigas Center,
+                Pasig, 1605 Metro Manila</p>
+
+            <div
+              class="view-map border-white p-2 d-flex justify-content-center align-items-center text-white align-content-end">
+              <a class="text-decoration-none text-white font--geist ft-sm" target="_blank"
+                href="https://www.google.com/maps/place/Packetworx+Inc+-+IoT+Technology+Hub/@14.5855313,121.0609976,17z/data=!3m1!4b1!4m6!3m5!1s0x3397c9a4a1982bd9:0xe1e7227208bd9247!8m2!3d14.5855261!4d121.0635725!16s%2Fg%2F11g2xr8v8l?entry=ttu">View
+                map <i class="fa-regular fa-map ms-2"></i></a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-7 col-sm-12 rounded-2 mt-5">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.2376230569116!2d121.06099757433073!3d14.58553127744696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9a4a1982bd9%3A0xe1e7227208bd9247!2sPacketworx%20Inc%20-%20IoT%20Technology%20Hub!5e0!3m2!1sen!2sph!4v1719926694293!5m2!1sen!2sph"
+            width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <!-- venue 5 -->
+
+        <!-- venue 6-->
+        <div class="col-lg-7 col-sm-12 d-flex flex-column mx-auto mt-5">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d965.4191909353434!2d121.0298413!3d14.5604679!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c900f2161131%3A0x929312216d6fcc29!2sQBO%20Innovation%20Hub!5e0!3m2!1sen!2sph!4v1719927110358!5m2!1sen!2sph"
+            width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="col-lg-4 col-sm-12 rounded-2 mt-5">
+          <div class="location-title QBO text-white p-3 d-flex flex-column justify-content-between rounded-2">
+            <p class="mt-3"> <span class="font--poppins fs-3 fw-bold">QBO Innovation Hub</span><br><span
+                class="font--geist ft-sm lh-1">375 Sen. Gil J. Puyat Ave, Makati, 1209 Metro Manila</span></p>
+            <div
+              class="view-map border-white p-2 d-flex justify-content-center align-items-center text-white align-content-end">
+              <a class="text-decoration-none text-white font--geist ft-sm" target="_blank"
+                href="https://www.google.com/maps/place/QBO+Innovation+Hub/@14.5604679,121.0298413,19.73z/data=!4m6!3m5!1s0x3397c900f2161131:0x929312216d6fcc29!8m2!3d14.5605444!4d121.0300123!16s%2Fg%2F11c58vslh0?entry=ttu">View
+                map <i class="fa-regular fa-map ms-2"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- venue 6 -->
+
+
+        <!-- venue 7 -->
+        <div class="col-lg-4 col-sm-12 d-flex flex-column mx-auto mt-5">
+          <div class="location-title museum text-white p-3 d-flex flex-column justify-content-between rounded-2">
+            <p class="mt-3"> <span class="font--poppins fs-3 fw-bold">National Museum of Fine Arts</span><br><span
+                class="font--geist ft-sm lh-1">Padre Burgos Ave, Ermita, Manila, 1000 Metro Manila</p>
+
+            <div
+              class="view-map border-white p-2 d-flex justify-content-center align-items-center text-white align-content-end">
+              <a class="text-decoration-none text-white font--geist ft-sm" target="_blank"
+                href="https://www.google.com/maps/search/national+museum+of+the+philippines/@14.5863134,120.9786328,17z?entry=ttu">View
+                map <i class="fa-regular fa-map ms-2"></i></a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-7 col-sm-12 rounded-2 mt-5">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.223907831233!2d120.97863282433076!3d14.586313377427834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ca23d0569b6b%3A0xcfc70cbb93eae02a!2sNational%20Museum%20of%20Fine%20Arts!5e0!3m2!1sen!2sph!4v1719928654289!5m2!1sen!2sph"
+            width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <!-- venue 7 -->
+
+        <!-- venue 8-->
+        <div class="col-lg-7 col-sm-12 d-flex flex-column mx-auto mt-5">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241.28888399348486!2d121.08735430000002!3d14.620588199999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b9a6dabe8933%3A0x4bf6f6505bff2625!2sLRTA%20Line%202%20Depot!5e0!3m2!1sen!2sph!4v1719928981390!5m2!1sen!2sph"
+            width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="col-lg-4 col-sm-12 rounded-2 mt-5">
+          <div class="location-title lrt text-white p-3 d-flex flex-column justify-content-between rounded-2">
+            <p class="mt-3"> <span class="font--poppins fs-3 fw-bold">LRTA Line 2 Depot</span><br><span
+                class="font--geist ft-sm lh-1"> Pasig, 1800 Metro Manila</span></p>
+            <div
+              class="view-map border-white p-2 d-flex justify-content-center align-items-center text-white align-content-end">
+              <a class="text-decoration-none text-white font--geist ft-sm" target="_blank"
+                href="https://www.google.com/maps/place/LRTA+Line+2+Depot/@14.6205882,121.0873543,21z/data=!4m14!1m7!3m6!1s0x3397b9a6dabe8933:0x4bf6f6505bff2625!2sLRTA+Line+2+Depot!8m2!3d14.6204109!4d121.0872116!16s%2Fg%2F11h949mk6v!3m5!1s0x3397b9a6dabe8933:0x4bf6f6505bff2625!8m2!3d14.6204109!4d121.0872116!16s%2Fg%2F11h949mk6v?entry=ttu">View
+                map <i class="fa-regular fa-map ms-2"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- venue 8 -->
+
+        <!-- venue 9 -->
+        <div class="col-lg-4 col-sm-12 d-flex flex-column mx-auto mt-5">
+          <div class="location-title hytec text-white p-3 d-flex flex-column justify-content-between rounded-2">
+            <p class="mt-3"> <span class="font--poppins fs-3 fw-bold">Hytec Power Inc. - Training Hub</span><br><span
+                class="font--geist ft-sm lh-1">Cruzville, 37 Mamerto Street, Zabarte Rd, Novaliches, Quezon City, 1123
+                Metro Manila</p>
+
+            <div
+              class="view-map border-white p-2 d-flex justify-content-center align-items-center text-white align-content-end">
+              <a class="text-decoration-none text-white font--geist ft-sm" target="_blank"
+                href="https://www.google.com/maps/place/Hytec+Power+Inc.+-+Training+Hub/@14.7335916,121.0471878,18.82z/data=!4m10!1m2!2m1!1shytec+power+inc!3m6!1s0x3397b1bfe60d6985:0xeae29cd46f38e185!8m2!3d14.7333939!4d121.047101!15sCg9oeXRlYyBwb3dlciBpbmOSARRkaXN0cmlidXRpb25fc2VydmljZeABAA!16s%2Fg%2F11s9h4s3z_?entry=ttu">View
+                map <i class="fa-regular fa-map ms-2"></i></a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-7 col-sm-12 rounded-2 mt-5">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1094.222619488009!2d121.04718780630579!3d14.73359162184508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b1bfe60d6985%3A0xeae29cd46f38e185!2sHytec%20Power%20Inc.%20-%20Training%20Hub!5e0!3m2!1sen!2sph!4v1719929251621!5m2!1sen!2sph"
+            width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <!-- venue 9 -->
+
+        <!-- venue 10-->
+        <div class="col-lg-7 col-sm-12 d-flex flex-column mx-auto mt-5">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.701452327531!2d121.01703697433011!3d14.559057578093993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c908d0d55acf%3A0x3a25821d4166359!2s98Labs%2C%20Inc.!5e0!3m2!1sen!2sph!4v1719929354583!5m2!1sen!2sph"
+            width="100%" height="300px" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="col-lg-4 col-sm-12 rounded-2 mt-5">
+          <div class="location-title labs-98 text-white p-3 d-flex flex-column justify-content-between rounded-2">
+            <p class="mt-3"> <span class="font--poppins fs-3 fw-bold">98 Labs, Inc.</span><br><span
+                class="font--geist ft-sm lh-1">98, 1227 V.A. Rufino St, Makati, Metro Manila</span></p>
+            <div
+              class="view-map border-white p-2 d-flex justify-content-center align-items-center text-white align-content-end">
+              <a class="text-decoration-none text-white font--geist ft-sm" target="_blank"
+                href="https://www.google.com/maps/place/98Labs,+Inc./@14.5590576,121.017037,17z/data=!4m14!1m7!3m6!1s0x3397c908d0d55acf:0x3a25821d4166359!2s98Labs,+Inc.!8m2!3d14.5590524!4d121.0196119!16s%2Fg%2F1tg845hm!3m5!1s0x3397c908d0d55acf:0x3a25821d4166359!8m2!3d14.5590524!4d121.0196119!16s%2Fg%2F1tg845hm?entry=ttu">View
+                map <i class="fa-regular fa-map ms-2"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- venue 10 -->
+      </div>
+    </div>
+  </main>
+  <!-- end of main -->
+
+  <!-- footer section -->
+  <div class="container-fluid footer-sect p-4 text-white">
+    <div class="row pt-5">
+      <div class="col-lg-4 col-sm-12 footer-title text-center ">
+        <span class="font--josefin fw-bold fs-4" >BSCS Tour 2024.</span>
+      </div>
+      <div class="col-lg-4 col-sm-12 d-flex  align-items-center justify-content-between bg-white p-1 mb-20">
+        <input placeholder="Message me" class="w-100 text-secondary font--geist  ft-sm outline-none border-0 " type="text"><a href=""><i
+            class="fa-regular fa-envelope text-white rounded-1 bg-dark p-2"></i></a>
+      </div>
+      <div class="col-lg-4 col-sm-12 social-links d-flex justify-content-center align-items-center ">
+        <a target="_blank" class="mx-3 text-white text-decoration-none"
+          href="https://www.facebook.com/alexjay.hara0805"><i class="fa-brands fa-facebook d-block"></i></a>
+        <a target="_blank" class="mx-3 text-white text-decoration-none" href="https://www.instagram.com/aj_hara/"><i
+            class="fa-brands fa-instagram d-block"></i></a>
+        <a target="_blank" class="mx-3 text-white text-decoration-none" href="https://github.com/Aedrox0508"><i
+            class="fa-brands fa-github d-block "></i></a>
+      </div>
+    </div><br><br>
+    <hr class="text-white">
+    <p class="ft-sm text-white ">© 2023 Alex Jay. All rights reserved</p>
+  </div>
+  <!-- footer section -->
+
+  <!-- bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+    
+    <script src="./script.js" ></script>
+  <!-- bootstrap js -->
+</body>
+
+</html>
